@@ -1,0 +1,49 @@
+.item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(120, 120, 212);
+    border-radius: 50%;
+    box-shadow: 9px 5px 5px rgb(0 0 255 / 10%);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .online,
+  .offline {
+    border-radius: 50%;
+    position: absolute;
+    right: 45px;
+    bottom: 10px;
+    align-self: flex-start;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .online {
+    background-color: rgb(101, 215, 89);
+  }
+  
+  .offline {
+    background-color: rgb(227, 68, 68);
+  }
+
+  .avatar {
+    width: 50px;
+  }
+  .name {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  
+  .item:hover,
+  .item:focus {
+    transform: scale(1.1);
+  }

@@ -1,0 +1,35 @@
+.transaction_history {
+    text-align: center;
+    width: 800px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(206, 204, 204);
+    background: linear-gradient(to top left, powderblue, pink);
+  }
+  
+  th {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 800;
+    padding: 10px 0;
+    border: 3px solid rgb(154, 151, 151);
+    background-color: rgb(243, 159, 173);
+    color: rgb(0, 0, 0);
+  }
+  td {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+    border: 1px solid rgb(206, 204, 204);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.1s ease;
+  }
+  td:hover,
+  td:focus {
+    background-color: rgb(203, 203, 215);
+  }
